@@ -1,51 +1,62 @@
 export default function AboutUs() {
     return (
-        <div className="min-h-screen bg-white text-gray-800 px-6 py-12">
-            <div className="max-w-4xl mx-auto">
-                {/* Header */}
-                <h1 className="text-4xl font-bold text-center mb-6 text-green-700">About BookMyTurf</h1>
+        <div className="min-h-screen bg-gray-100 text-gray-800">
+            <div className="max-w-6xl mx-auto px-6 py-12 space-y-12">
 
-                {/* Intro */}
-                <p className="text-lg text-center mb-8">
-                    BookMyTurf is a modern platform created to make turf booking simple, smart, and stress-free — for both players and turf owners.
-                </p>
-
-                {/* Mission */}
-                <section className="mb-10">
-                    <h2 className="text-2xl font-semibold text-green-600 mb-2">🎯 Our Mission</h2>
-                    <p>
-                        We aim to simplify turf and ground bookings using technology that empowers players to easily find and book slots, while also helping turf owners manage their operations with zero hassle.
+                {/* Header Section */}
+                <div className="text-center bg-green-700 text-white py-10 px-4 rounded-xl shadow-md">
+                    <h1 className="text-4xl font-extrabold mb-3">About BookMyTurf</h1>
+                    <p className="text-lg max-w-2xl mx-auto">
+                        BookMyTurf is a digital platform built to modernize turf booking. Whether you're a player or a turf owner, we help make the process seamless, smart, and fast.
                     </p>
-                </section>
+                </div>
 
-                {/* Vision */}
-                <section className="mb-10">
-                    <h2 className="text-2xl font-semibold text-green-600 mb-2">🚀 Why We Built BookMyTurf</h2>
-                    <p>
-                        Urban sports are booming, but the booking process was stuck in the past — calls, confusion, and double bookings. BookMyTurf fixes this by offering:
+                {/* Mission Section */}
+                <div className="bg-white p-8 rounded-lg shadow-md">
+                    <h2 className="text-2xl font-semibold text-green-600 mb-3">Our Mission</h2>
+                    <p className="text-gray-700 leading-relaxed">
+                        Our mission is to simplify the process of discovering, booking, and managing turfs. We empower sports lovers to find available grounds quickly and give turf managers the tools to handle bookings easily.
                     </p>
-                    <ul className="list-disc list-inside mt-2 space-y-1">
-                        <li>Real-time slot availability</li>
-                        <li>Secure online booking & payments</li>
-                        <li>Easy-to-use dashboard for turf managers</li>
-                        <li>Mobile-friendly experience for players on the go</li>
+                </div>
+
+                {/* Problem & Features Section */}
+                <div className="bg-white p-8 rounded-lg shadow-md">
+                    <h2 className="text-2xl font-semibold text-green-600 mb-3">What Makes Us Different</h2>
+                    <p className="text-gray-700 mb-4">
+                        The traditional turf booking system is broken. We've solved common problems with features like:
+                    </p>
+                    <ul className="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Live slot tracking and availability</li>
+                        <li>Instant online payments and confirmations</li>
+                        <li>User and admin dashboards for booking control</li>
+                        <li>Fully responsive mobile experience</li>
+                        <li>Notification system to avoid confusion</li>
                     </ul>
-                </section>
+                </div>
 
-                {/* Team Info */}
-                <section className="mb-10">
-                    <h2 className="text-2xl font-semibold text-green-600 mb-2">👨‍💻 Our Team</h2>
-                    <p>
-                        We are a group of student developers, designers, and sports enthusiasts who built BookMyTurf during a hackathon. What started as a passion project has now evolved into a full-featured platform that solves a real-world problem.
+                {/* Team Section */}
+                <div className="bg-white p-8 rounded-lg shadow-md">
+                    <h2 className="text-2xl font-semibold text-green-600 mb-3">Who We Are</h2>
+                    <p className="text-gray-700 leading-relaxed">
+                        We are a passionate team of students, developers, and athletes who saw a problem and built a real solution. What started as a hackathon idea turned into a growing project helping players and turf managers stay connected.
                     </p>
-                </section>
+                </div>
 
-                {/* Closing Note */}
-                <section className="text-center mt-10">
-                    <p className="text-xl">
-                        Whether you're booking your first match or managing multiple turfs — BookMyTurf is here to help. ⚽🏏🏐
+                {/* Vision Section */}
+                <div className="bg-white p-8 rounded-lg shadow-md">
+                    <h2 className="text-2xl font-semibold text-green-600 mb-3">Our Vision</h2>
+                    <p className="text-gray-700 leading-relaxed">
+                        We want to become the go-to turf booking platform across cities and campuses. Our vision is to create a network of verified turfs, seamless digital access, and zero confusion in managing sports spaces.
                     </p>
-                </section>
+                </div>
+
+                {/* Final Call-to-Action */}
+                <div className="text-center bg-green-600 text-white py-10 px-6 rounded-xl shadow-md">
+                    <h3 className="text-2xl font-semibold mb-2">Let’s Redefine Turf Booking Together</h3>
+                    <p className="max-w-2xl mx-auto">
+                        Join the thousands who are already using BookMyTurf to simplify how they play, manage, and enjoy sports. We’re just getting started.
+                    </p>
+                </div>
             </div>
         </div>
     );

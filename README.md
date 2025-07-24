@@ -1,70 +1,93 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+BookMyTurf – Your Turf, Your Time
+BookMyTurf is a smart and user-friendly turf booking platform built with React and Firebase.
+It simplifies ground reservations for players and turf managers with real-time slot booking,
+dynamic pricing, and secure login — all with a clean interface and zero backend coding.
+Features
+User Sign Up & Login with Firebase Authentication
 
-In the project directory, you can run:
 
-### `npm start`
+Book Turf by Time Slot with real-time availability
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Choose Game Type: Football, Cricket, or Other
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Dynamic pricing with morning discounts
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Personalized booking history per user
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Firebase Firestore used as the database
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Fully responsive UI with Tailwind CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tech Stack
+Frontend
+Backend-as-a-Service
+Styling
+Deployment
+React JS
+Firebase Auth + Firestore
+Tailwind CSS
+Firebase Hosting / Vercel
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+ER Representation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![alt text](image-1.png)
+Link to ER: https://excalidraw.com/#room=3e01616fb76685379844,itMhZhDt34950j8cs-gTxg
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+How to Run Locally
+bash
+CopyEdit
+git clone https://github.com/brijwanitina/TurfBooking.git
+cd BookMyTurf
+npm install
+npm run start
 
-### Analyzing the Bundle Size
+Firebase Setup Steps
+Go to firebase.google.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Create a new project → Add web app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Enable:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Email/Password in Authentication
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+Firestore Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Copy the config and paste into firebase.js
+
+
+
+What We Learned
+Built a functional full-stack app using Firebase
+
+
+Solved real-world problems like slot conflicts and user history
+
+
+Improved user experience with responsive design
+
+
+Learned how to use Firebase Authentication and Firestore together
+
+
+
+Team
+Tina Brijwani,Palak Lund,Siya Rohra,Gungun Narwani
+
+Wrap-up
+BookMyTurf makes turf reservations smooth, modern, and mobile-friendly. Whether you're a player looking for a quick game or a manager trying to prevent overbookings, our solution delivers simplicity and efficiency — all in one place.

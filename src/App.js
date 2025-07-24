@@ -6,6 +6,10 @@ import Admin from './pages/Admin';
 import SignIn from './pages/SignIn';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import Login from './pages/Login';
+import UserDetails from './pages/UserDetails';
+import './App.css';
+
 
 function App() {
   return (
@@ -18,6 +22,9 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/about" element={<AboutUs />} />
           <Route path = "/contact" element = {<Contact/>}/>
+          <Route path = "/login" element = {<Login/>}/>
+          <Route path = "/admin" element = {<Admin/>}/>
+          <Route path = "/userdetails" element = {<UserDetails/>}/>
       </Routes>
     </Router>
   );
